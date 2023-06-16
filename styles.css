@@ -1,0 +1,18 @@
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%; /* Adjust the width as per your preference */
+}
+
+.grid-item {
+    background-color: lightgray;
+    border: 1px solid gray;
+    flex-basis: calc(100% / 16);
+    height: 0;
+    padding-bottom: calc(100% / 16);
+    box-sizing: border-box;
+}
+
+.hovered {
+    background-color: blue;
+}
